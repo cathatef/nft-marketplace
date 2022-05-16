@@ -5,8 +5,8 @@
   width: 250px;
   /* box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 300px;
-  border-radius: 30px;
+  height: 400px;
+  /* border-radius: 30px; */
   backdrop-filter: blur(50px);
   /* filter:blur(4px); */
   background: rgb(2, 0, 36);
@@ -23,9 +23,9 @@
 }
 .nft-image {
   width: 240px;
-  height: 170px;
+  height: 240px;
   margin-top: 5px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .card{
@@ -46,6 +46,7 @@
     /* border:1px solid purple; */
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 
 .info-container{
@@ -64,14 +65,14 @@
 .info-container > .owner {
     font-size:12px;
     font-weight: bold;
-    color:#C6C2C6;
+    color:#6c757d;
     padding-top: 5px;
 }
 
 .info-container > .name {
     font-size: 18px;
     font-weight: bold;
-    color: #ffffff;
+    color: #6c757d;
     padding-top:10px;
 }
 
@@ -90,14 +91,14 @@
 .price-container > .price-label{
     font-size:12px;
     font-weight: bold;
-    color:#C6C2C6;
+    color:#6c757d;
     padding-top: 5px;
 }
 
 .price-container > .price {
     font-size: 18px;
     font-weight: bold;
-    color: #ffffff;
+    color: #6c757d;
     padding-top:10px;
 }
 
@@ -150,7 +151,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size:15px;
     margin-top:5px;
-    color:#ffffff;
+    color:#6c757d;
 }
 
 

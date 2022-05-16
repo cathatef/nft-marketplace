@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
 body {
-  background-color: #100f17;
+  background-color: #f8f8f8;
 }
 
 #home {
@@ -16,9 +18,9 @@ a {
 }
 
 #card-list-header-text {
-  color: #ffffff;
-  font-family: "Rock Salt", cursive;
-  font-size: 24px;
+  color: #000;
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 40px;
   margin-top: 80px;
   padding-top: 20px;
   padding-bottom: 20px;

@@ -14,13 +14,13 @@ const Header = () => {
 
     return (
         <div id="header">
-        <Link to='/' id='logo'>NFT Room</Link>
+        <Link to='/' id='logo'>Marketplace</Link>
 
         <div id="link-containers">
-          <a>Start Hunting</a>
-          <a>Dark NFTs</a>
+          <a>Explore</a>
+          {/* <a>Dark NFTs</a>
           <a>Community</a>
-          <a>Craft NFT</a>
+          <a>Craft NFT</a> */}
 
           <button id="connect-wallet" onClick={handleWallet} >{!account ? 'Connect Wallet' : account}</button>
         </div>

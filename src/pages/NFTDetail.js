@@ -12,7 +12,7 @@ import { useMobile } from "../hooks/isMobile";
 import { hotDropsData } from "../constants/MockupData";
 import NFTCard from "../components/NFTCard";
 import { useARStatus } from "../hooks/isARStatus";
-
+import Footer from "../components/Footer";
 
 
 const NFTDetail = () => {
@@ -63,7 +63,7 @@ const NFTDetail = () => {
 
               <div id="detail-info" style={{}}>
                 <div id='detail-info-container'>
-                  <p id="collection"> {state.item.name} </p>
+                  {/* <p id="collection"> {state.item.name} </p> */}
                   <p id="name"> {state.item.name} </p>
                   <p id="description" > {state.item.description} </p>
 
@@ -83,18 +83,11 @@ const NFTDetail = () => {
                   <div className="like-container">
                     <button className="like" onClick={like}>
                       {!isLike ? (
-                        <AiOutlineHeart size="45" color="white" />
+                        <AiOutlineHeart size="45" color="#2c5241" />
                       ) : (
                         <AiFillHeart
                           size="45"
-                          style={{
-                            stroke: `-webkit-linear-gradient(
-                    to bottom,
-                    #38ef7d,
-                    #11998e
-                  );`,
-                          }}
-                          color="#00f5c966"
+                          color="#2c5241"
                         />
                       )}
                     </button>
@@ -107,7 +100,7 @@ const NFTDetail = () => {
         />
         
       </div>
-
+        <Footer/>
     </div>
   );
 };

@@ -19,15 +19,15 @@ const Hero = () => {
 
       <Header />
 
-      <h1 id="header-text-first"> NFT </h1>
-      <h1 id="header-text-second"> Darkroom Marketplace</h1>
-      <h5 id="header-subtext">Craft, hunt and trade NFT's in the dark</h5>
+      <h1 id="header-text-first"> AI Art </h1>
+      <h1 id="header-text-second"> NFT Marketplace</h1>
+      <h5 id="header-subtext">Craft, hunt and trade NFT's in the Metaverse</h5>
 
       <div id="hero-buttons">
         <button id="explore" onClick={goExplore}>
           Explore
         </button>
-        <button id="create" onClick={goCreate}>Create</button>
+        <button id="create" onClick={"/"}>Create</button>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import { exploreList } from "../constants/MockupData";
 import '../styles/Explore.css';
 import Header from "../components/Header";
 import Search from "../components/Search";
+import Footer from "../components/Footer";
 const Explore = () => {
   return (
     <div id="explore">
@@ -12,6 +13,7 @@ const Explore = () => {
       <div id="list-container">
         <CardList list={exploreList} />
       </div>
+      <Footer/>
     </div>
   );
 };

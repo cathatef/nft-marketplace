@@ -4,9 +4,9 @@ import "../../styles/base/Button.css";
 const Button = ({
   width = "80px",
   height = "30px",
-  color = "#ffffff",
+  color = "#2c5241",
   onClick,
-  textColor = "black",
+  textColor = "#fff",
   textContent = 'Button',
   child
 }) => {

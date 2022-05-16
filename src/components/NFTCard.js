@@ -30,10 +30,6 @@ const NFTCard = ({ username, nftName, price, nftSrc, likeCount, gradient, onClic
     //console.log(colors);
   }
 
-
-
-
-
   return (
     <Card
       blurColor={colors[0]}
@@ -58,19 +54,13 @@ const NFTCard = ({ username, nftName, price, nftSrc, likeCount, gradient, onClic
         </div>
         <div className="buttons">
           {/* <button className="buy-now">Buy Now</button> */}
-          <Button color={Colors.buttons.primary} textContent="Buy Now" onClick={onClick} />
+          <Button color={"#2c5241"} textContent="Buy Now" onClick={onClick} />
           <div className="like-container">
             <button className="like" onClick={like}>
               {!isLike ? (
-                <AiOutlineHeart size="30" color="white" />
+                <AiOutlineHeart size="30" color="#2c5241" />
               ) : (
-                <AiFillHeart size="30" style={{
-                  stroke: `-webkit-linear-gradient(
-                    to bottom,
-                    #38ef7d,
-                    #11998e
-                  );`
-                }} color='#00f5c966' />
+                <AiFillHeart size="30"  color='#2c5241' />
               )}
             </button>
             <p className="like-count">123</p>

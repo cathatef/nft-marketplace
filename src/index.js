@@ -12,6 +12,7 @@ import Explore from "./pages/Explore";
 import { DAppProvider } from "@usedapp/core";
 import NFTDetail from "./pages/NFTDetail";
 
+
 ReactDOM.render(
   <BrowserRouter>
       <Routes>
